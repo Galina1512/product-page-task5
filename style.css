@@ -63,7 +63,7 @@ margin: 10px 100px;
 main{
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 40px 30px;
 }
 .left-container, .right-container{
     width: 50%;
@@ -206,7 +206,12 @@ filter: sepia(70%);
     filter: sepia(50%);
 
 }
-.price h4{
+.price h2{
+font-size: 28px;
+font-weight: 700;
+color: black;
+}
+.price h3{
     text-decoration: line-through;
     font-size: 20px;
     color: hsla(0, 0%, 0%, 0.4);
